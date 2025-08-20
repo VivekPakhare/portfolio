@@ -1,14 +1,13 @@
 ---
-date: '2017-11-01'
-title: 'Apple Music Facebook Messenger Integration'
-github: ''
-external: 'https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming'
+date: '2024-08-01'
+title: 'Google Cloud Skill Badge'
+company: 'Google Cloud / Cloud Skills Boost'
+external: 'https://www.cloudskillsboost.google/public_profiles/76541b72-067c-42d9-9f79-12acb021ae98/badges/10676615'
 tech:
-  - Ember
-  - JS
-  - SCSS
-company: 'Apple'
+  - Google Cloud
+  - Cloud Fundamentals
+  - GCP
 showInProjects: true
 ---
 
-Facebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).
+Completed the Google Cloud skill badge on Cloud Skills Boost covering core Google Cloud concepts and hands-on labs. Gained practical experience with GCP tooling and cloud fundamentals.

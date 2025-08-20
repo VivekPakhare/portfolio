@@ -1,13 +1,13 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2025-08-19'
+title: 'B.Tech Information Technology'
+company: 'DBATU'
+location: 'Lonere, Raigad'
+range: '2024 - December 2027'
+url: 'https://dbatu.ac.in/'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Pursuing a Bachelor’s degree in Information Technology with a strong focus on **Machine Learning, Artificial Intelligence, and Data Science**
+- **Relevant Coursework:** Data Structures & Algorithms, Database Systems, Machine Learning, Artificial Intelligence, Web Development, Computer Networks
+- Participated in **hackathons and coding competitions**, working on innovative solutions in AI and software development
+- Active in **university tech community**, collaborating on open-source and community-driven projects

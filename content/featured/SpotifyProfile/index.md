@@ -1,15 +1,17 @@
 ---
-date: '2'
-title: 'Spotify Profile'
+date: '2025-01-02'
+title: 'Student Marketplace'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/VivekPakhare/Community-Project'
+external: ''
 tech:
   - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - HTML
+  - CSS
+  - JavaScript
+  - Django
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A simple **student marketplace** where students can buy and sell second-hand products.  
+The project has a responsive design and separate pages for About, Contact, and Products.  
+Planned upgrades include backend integration, search filters, and authentication.

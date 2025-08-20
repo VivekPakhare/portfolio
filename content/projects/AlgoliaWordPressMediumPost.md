@@ -1,14 +1,14 @@
 ---
-date: '2020-03-27'
-title: 'Integrating Algolia Search with WordPress Multisite'
+date: '2024-09-01'
+title: 'Responsive Web Design Certification'
 github: ''
-external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
+external: 'https://www.freecodecamp.org/certification/fcc2d3804c3-1c9f-4a5f-a4c9-b5c910702045/responsive-web-design'
 tech:
-  - Algolia
-  - WordPress
-  - PHP
-company: 'Upstatement'
+  - HTML
+  - CSS
+  - Responsive Design
+company: 'freeCodeCamp'
 showInProjects: true
 ---
 
-Building a custom multisite compatible WordPress plugin to build global search with Algolia
+Earned freeCodeCamp's **Responsive Web Design** certification covering HTML, CSS, flexbox, grid and responsive layouts. Built several projects demonstrating mobile-first responsive design and accessibility best practices.

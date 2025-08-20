@@ -1,15 +1,16 @@
 ---
-date: '1'
-title: 'Halcyon Theme'
+date: '2025-01-01'
+title: 'Face Recognition'
 cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+github: 'https://github.com/VivekPakhare/Face-Recognition'
+external: ''
 tech:
   - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - Python
+  - OpenCV
+  - Numpy
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+A computer vision project that uses **OpenCV** for real-time face detection and recognition.  
+It can identify faces from a dataset and works with both images and webcam streams.  
+Future improvements include deep learning integration and a web app interface.

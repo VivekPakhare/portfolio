@@ -1,12 +1,13 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2022-06-01'
+title: 'Higher Secondary Education'
+company: 'Nutan Mahavidyalaya'
+location: ''
+range: '2022 - 2023'
+url: 'https://sgbau.ac.in/'
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Completed Higher Secondary Education with a focus on **Science and Mathematics**
+- Participated in **coding competitions and science exhibitions** during junior college
+- Developed strong foundations in **Physics, Chemistry, and Mathematics (PCM)**
+- Built initial interest in **Computer Science and Web Development**
