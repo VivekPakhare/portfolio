@@ -1,0 +1,7 @@
+# netlify.toml
+[build]
+  command = "yarn build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "20.18.1"
