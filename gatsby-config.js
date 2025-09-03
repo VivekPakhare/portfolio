@@ -17,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-netlify`, // Add this for better Netlify integration
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -77,7 +78,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
+              // Removed tracedSVG as it's deprecated
             },
           },
           {
