@@ -58,6 +58,7 @@ const RAW_RUNTIME_STATE =
           ["gatsby-source-filesystem", "virtual:9dfc6c979ba49de7512e43e4334bf460846969fedae49cc2fa5792e70f1fbb017a92210a03a060708efb852782f5cc534092db83c2c118f1663a93677c1e8444#npm:5.0.0"],\
           ["gatsby-transformer-remark", "virtual:9dfc6c979ba49de7512e43e4334bf460846969fedae49cc2fa5792e70f1fbb017a92210a03a060708efb852782f5cc534092db83c2c118f1663a93677c1e8444#npm:6.0.0"],\
           ["gatsby-transformer-sharp", "virtual:9dfc6c979ba49de7512e43e4334bf460846969fedae49cc2fa5792e70f1fbb017a92210a03a060708efb852782f5cc534092db83c2c118f1663a93677c1e8444#npm:5.0.0"],\
+          ["gh-pages", "npm:6.3.0"],\
           ["husky", "npm:6.0.0"],\
           ["lint-staged", "npm:10.5.4"],\
           ["lodash", "npm:4.17.21"],\
@@ -7701,6 +7702,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["commander", [\
+      ["npm:13.1.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/commander-npm-13.1.0-bdbbfaaf9d-10c0.zip/node_modules/commander/",\
+        "packageDependencies": [\
+          ["commander", "npm:13.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:2.20.3", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/commander-npm-2.20.3-d8dcbaa39b-10c0.zip/node_modules/commander/",\
         "packageDependencies": [\
@@ -8973,6 +8981,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/electron-to-chromium-npm-1.5.211-44152ef777-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
           ["electron-to-chromium", "npm:1.5.211"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["email-addresses", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/email-addresses-npm-5.0.0-218d2e9289-10c0.zip/node_modules/email-addresses/",\
+        "packageDependencies": [\
+          ["email-addresses", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12095,6 +12112,22 @@ const RAW_RUNTIME_STATE =
           ["es-errors", "npm:1.3.0"],\
           ["get-intrinsic", "npm:1.3.0"],\
           ["get-symbol-description", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["gh-pages", [\
+      ["npm:6.3.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/gh-pages-npm-6.3.0-d11c533b16-10c0.zip/node_modules/gh-pages/",\
+        "packageDependencies": [\
+          ["async", "npm:3.2.6"],\
+          ["commander", "npm:13.1.0"],\
+          ["email-addresses", "npm:5.0.0"],\
+          ["filenamify", "npm:4.3.0"],\
+          ["find-cache-dir", "npm:3.3.2"],\
+          ["fs-extra", "npm:11.3.1"],\
+          ["gh-pages", "npm:6.3.0"],\
+          ["globby", "npm:11.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -21313,6 +21346,7 @@ const RAW_RUNTIME_STATE =
           ["gatsby-source-filesystem", "virtual:9dfc6c979ba49de7512e43e4334bf460846969fedae49cc2fa5792e70f1fbb017a92210a03a060708efb852782f5cc534092db83c2c118f1663a93677c1e8444#npm:5.0.0"],\
           ["gatsby-transformer-remark", "virtual:9dfc6c979ba49de7512e43e4334bf460846969fedae49cc2fa5792e70f1fbb017a92210a03a060708efb852782f5cc534092db83c2c118f1663a93677c1e8444#npm:6.0.0"],\
           ["gatsby-transformer-sharp", "virtual:9dfc6c979ba49de7512e43e4334bf460846969fedae49cc2fa5792e70f1fbb017a92210a03a060708efb852782f5cc534092db83c2c118f1663a93677c1e8444#npm:5.0.0"],\
+          ["gh-pages", "npm:6.3.0"],\
           ["husky", "npm:6.0.0"],\
           ["lint-staged", "npm:10.5.4"],\
           ["lodash", "npm:4.17.21"],\

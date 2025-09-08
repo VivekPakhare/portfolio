@@ -1,6 +1,9 @@
 const config = require('./src/config');
 
 module.exports = {
+  // This is the critical line for GitHub Pages deployment
+  pathPrefix: '/portfolio',
+
   siteMetadata: {
     title: 'Vivek Pakhare',
     description:
@@ -17,7 +20,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
-    // NOTE: gatsby-plugin-netlify has been correctly removed from this list.
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
