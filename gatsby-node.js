@@ -16,7 +16,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     {
       postsRemark: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/posts/" } }
-        sort: { order: DESC, fields: [frontmatter___date] }
+        # FIX: Updated the sort query to the new syntax
+        sort: { frontmatter: { date: DESC } }
         limit: 1000
       ) {
         edges {
@@ -28,7 +29,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         }
       }
       tagsGroup: allMarkdownRemark(limit: 2000) {
-        group(field: frontmatter___tags) {
+        # FIX: Updated the group query to the new syntax
+        group(field: { frontmatter: { tags: SELECT } }) {
           fieldValue
         }
       }
@@ -48,7 +50,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     createPage({
       path: node.frontmatter.slug,
       component: postTemplate,
-      context: {},
+      // CRITICAL FIX: Pass the slug into the page's context.
+      // This allows the post.js template to query for the correct markdown file.
+      context: {
+        slug: node.frontmatter.slug,
+      },
     });
   });
 

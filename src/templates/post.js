@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import kebabCase from 'lodash/kebabCase';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
@@ -31,26 +30,14 @@ const StyledPostContent = styled.div`
     line-height: 1.5;
     color: var(--light-slate);
   }
-
-  a {
-    ${({ theme }) => theme.mixins.inlineLink};
-  }
-
-  code {
-    background-color: var(--lightest-navy);
-    color: var(--lightest-slate);
-    border-radius: var(--border-radius);
-    font-size: var(--fz-sm);
-    padding: 0.2em 0.4em;
-  }
-
-  pre code {
-    background-color: transparent;
-    padding: 0;
-  }
 `;
 
 const PostTemplate = ({ data, location }) => {
+  // Defensive check to prevent build crash if data is missing
+  if (!data || !data.markdownRemark) {
+    return null;
+  }
+
   const { frontmatter, html } = data.markdownRemark;
   const { title, date, tags } = frontmatter;
 
@@ -59,11 +46,6 @@ const PostTemplate = ({ data, location }) => {
       <Helmet title={title} />
 
       <StyledPostContainer>
-        <span className="breadcrumb">
-          <span className="arrow">&larr;</span>
-          <Link to="/pensieve">All memories</Link>
-        </span>
-
         <StyledPostHeader>
           <h1 className="medium-heading">{title}</h1>
           <p className="subtitle">
@@ -78,13 +60,14 @@ const PostTemplate = ({ data, location }) => {
             {tags &&
               tags.length > 0 &&
               tags.map((tag, i) => (
-                <Link key={i} to={`/pensieve/tags/${kebabCase(tag)}/`} className="tag">
+                <Link key={i} to={`/pensieve/tags/${tag}/`} className="tag">
                   #{tag}
                 </Link>
               ))}
           </p>
         </StyledPostHeader>
 
+        {/* This renders the HTML that comes from your markdown files */}
         <StyledPostContent dangerouslySetInnerHTML={{ __html: html }} />
       </StyledPostContainer>
     </Layout>
@@ -98,13 +81,13 @@ PostTemplate.propTypes = {
   location: PropTypes.object,
 };
 
+// The GraphQL query uses the slug passed in from gatsby-node.js to find the correct post
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $path } }) {
+  query ($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
-        description
         date
         slug
         tags
