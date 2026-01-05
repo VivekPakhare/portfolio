@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { withPrefix } from 'gatsby'; // Change #1: Added withPrefix import
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
@@ -62,22 +63,24 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Vivek Pakhare.</h2>;
   const three = (
-    <h3 className="big-heading">I explore Machine Learning & build intelligent systems.</h3>
+    <h3 className="big-heading">A student developer exploring the world of Machine Learning.</h3>
   );
   const four = (
     <>
       <p>
-        I specialize in building intelligent systems and exploring Artificial Intelligence, Data
-        Science, and real-world applications of ML to create impactful digital solutions.
+        I'm a B-Tech IT student passionate about diving into the world of Machine Learning, and
+        building practical, data-driven applications.
       </p>
     </>
   );
+
+  // Change #2: Updated the href to point to the resume PDF correctly
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href={withPrefix('/resume.pdf')}
       target="_blank"
-      rel="noreferrer">
+      rel="noopener noreferrer">
       Check out my resume!
     </a>
   );
