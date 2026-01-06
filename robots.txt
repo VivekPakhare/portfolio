@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://vivekpakhare.com/portfolio/sitemap-index.xml
-Host: https://vivekpakhare.com
+Sitemap: https://vivekpakhare.github.io/portfolio/sitemap-index.xml
+Host: https://vivekpakhare.github.io
