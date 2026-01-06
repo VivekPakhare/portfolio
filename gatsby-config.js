@@ -8,7 +8,7 @@ module.exports = {
     title: 'Vivek Pakhare',
     description:
       'Vivek Pakhare is a Machine Learning engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://vivekpakhare.com', // No trailing slash allowed!
+    siteUrl: 'https://vivekpakhare.github.io/portfolio', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@VivekPakhare92',
   },
@@ -25,7 +25,7 @@ module.exports = {
       options: {
         name: 'Vivek Pakhare',
         short_name: 'Vivek Pakhare',
-        start_url: '/',
+        start_url: '/portfolio/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
