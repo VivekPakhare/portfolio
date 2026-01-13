@@ -2,7 +2,7 @@
 </div>
 
 <p align="center">
-<a href="https://brittanychiang.com" target="_blank">vivekpakhare.github.io/portfolio</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Github</a>
+<a href="https://vivekpakhare.github.io/portfolio" target="_blank">Portfolio</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Github</a>
 </p>
 
 ## 🚨 Forking this repo (please read!)
